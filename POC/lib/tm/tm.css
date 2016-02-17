@@ -1,0 +1,35 @@
+.tab-panel {
+    position: relative;
+}
+
+.tab-panel .tab-title {
+    float: left;
+    width: 150px;
+}
+
+.tab-panel .tab-content {
+    float: left;
+    width: calc(100% - 150);
+}
+
+.tab-panel .tab-title {
+    border-right: 1px solid #e2eff8;
+}
+
+.tab-panel .tab-title .tab-title-item {
+    padding: 5px;
+}
+
+.tab-panel .tab-title .tab-title-item:hover {
+    background-color: #e2eff8;
+}
+
+.tab-panel .tab-title .tab-title-item-selected {
+    background-color: #e2eff8;
+}
+
+.tab-panel .tab-content {
+    float: left;
+    width: calc(100% - 151px);
+    padding-left: 5px;
+}

@@ -1,0 +1,74 @@
+input[type="search"] {
+/*
+    padding: 1px 1px 1px 26px !important;
+    background: url(../../image/widget/search_20x20.png) no-repeat left 4px top 3px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+*/
+}
+
+input[type="search"]:focus {
+/*
+    border-width: 1px !important;
+    background-image: url(../../image/widget/search_20x20_blue.png);
+*/
+}
+
+.searchContainer {
+/*
+    height: 37px;
+    position: relative;
+    padding-right: 37px;
+*/
+}
+
+.popup .searchContainer input{
+    border-left-color: white; 
+    border-right-color: white; 
+}
+
+.searchContainer input:focus{
+    border-left-color: #2AD2C9; 
+    border-right-color: #2AD2C9; 
+}
+
+/*Making this smaller as the default from Grommet is way too big*/
+.searchContainer .search-input{
+    height: 35px;
+}
+
+.searchContainer .search-input .control-icon{
+    width: 35px;
+    height: 35px;
+}
+
+.searchContainer .search-input div{
+    right: 0;
+}
+
+.clearSearch {
+    width: 28px;
+    height: 28px;
+    /* position: absolute; */
+    /* top: 0px; */
+    margin-bottom: 3px;
+    /* float: left; */
+}
+
+.searchContainer .search{
+    border-top: none;
+    border-right: none;
+}
+
+.list-item {
+    padding: 5px 5px 5px 10px;
+}
+
+.list-item:hover {
+    background-color: #CCCCCC;
+}
+
+#searchlist {
+    width: 245px;
+}
