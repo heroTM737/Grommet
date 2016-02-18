@@ -1,0 +1,19 @@
+.AS-Grid {
+  border: 1px solid #ededed;
+}
+.AS-GridHead {
+  background: #ebecee;
+}
+.AS-GridBody {
+  position: relative;
+  height: 560px;
+  overflow-y: hidden;
+}
+.AS-GridRow {
+  border-bottom: 1px solid #ededed;
+  display: flex;
+  flex-direction: row;
+}
+.AS-GridCell {
+  padding: 5px;
+}

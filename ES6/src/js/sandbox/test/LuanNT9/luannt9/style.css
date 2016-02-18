@@ -1,0 +1,52 @@
+.menuSandbox {
+  background-color: #AAAAAA;
+  height: 50px;
+  color: #fafafa;
+  display: inline-block;
+  width: auto;
+}
+.megaMenu{
+  height: 40px;
+  font-size: 12px;
+}
+.crumBar {
+  height: 40px;
+  padding: 5px 5px 5px 20px;
+  font-family: inherit;
+  font-weight: bold;
+}
+.image {
+  height: 50px;
+}
+
+
+
+
+
+
+.DoubleViewRight {
+    display: inline-block;
+    width: calc(100% - 250px);
+    height: 100%;
+    overflow: auto;
+    padding: 0px 0px 0px 5px;
+    float: right;
+    background-color: white;
+}
+
+.DoubleViewRuler {
+    display: inline-block;
+    width: 3px;
+    height: 100%;
+    overflow: auto;
+    cursor: col-resize;
+    background-color: #CCC;
+}
+
+.DoubleViewLeft {
+    display: inline-block;
+    width: 240px;
+    height: 100%;
+    background-color: white;
+    overflow: auto;
+}
