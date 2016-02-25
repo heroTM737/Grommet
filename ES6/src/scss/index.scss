@@ -1,0 +1,15 @@
+//for hpe theme, use the following import instead
+@import '~grommet/scss/hpe/index';
+
+// @import '~grommet/scss/vanilla/index';
+//default css
+@import 'reset';
+@import 'firefoxidiot';
+
+//css for widget
+@import 'widget/all';
+@import 'widget/widget';
+@import 'widget/tree';
+@import 'widget/scrollbar';
+@import 'widget/doubleView';
+@import 'widget/grid'

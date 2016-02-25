@@ -1,0 +1,36 @@
+.TienNX1Tab {
+}
+
+.TienNX1Tab .fa {
+  float: left;
+  margin: 5px;
+  color: #8f8f8f;
+}
+
+.TienNX1Tab .GrommetIconTab {
+  padding: 10px;
+}
+
+.TienNX1Tab .GrommetIconTab div {
+  padding: 5px 0;
+  border-bottom: 1px solid pink;
+}
+
+.TienNX1Tab .GrommetIconTab div span {
+  width: 100px;
+  display: inline-block;
+}
+
+.TienNX1Tab svg.control-icon {
+  margin: 5px;
+}
+
+.TienNX1Tab .social-icon svg.control-icon {
+  stroke: blue;
+  fill: blue;
+}
+
+.TienNX1Tab .tree-icon svg.control-icon {
+  stroke: #8f8f8f;
+  fill: #8f8f8f;
+}
